@@ -86,6 +86,14 @@ app.post('/pay-with-card', async (req, res) => {
   }
 });
 
+app.post('/test', (req, res) => {
+  res.json({
+    status: 'ok',
+    message: '🚀 API is running successfully!',
+    time: new Date().toISOString()
+  });
+});
+
 
 
 app.listen(3000, '0.0.0.0', () => {
