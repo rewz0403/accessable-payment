@@ -97,5 +97,6 @@ app.post('/test', (req, res) => {
 
 
 app.listen(3000, '0.0.0.0', () => {
-  console.log('✅ Server running at your.ip.number:3000');
+  console.log('✅ Now Server Running ');
+
 }); 
